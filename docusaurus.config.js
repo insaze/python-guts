@@ -94,7 +94,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/insaze/docusaurus',
+                                href: 'https://github.com/insaze/python-guts',
                             },
                         ],
                     },
