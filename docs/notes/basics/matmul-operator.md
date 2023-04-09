@@ -43,15 +43,17 @@ a_{11} & a_{12} & \dots & a_{1m} \\
 a_{21} & a_{22} & \dots & a_{2m} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{l1} & a_{l2} & \dots & a_{lm} \\
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
 
+$$
 B = 
 \begin{bmatrix}
 b_{11} & b_{12} & \dots & b_{1n} \\
 b_{21} & b_{22} & \dots & b_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 b_{m1} & b_{m2} & \dots & b_{mn} \\
-\end{bmatrix},
+\end{bmatrix}
 $$
 
 Тогда матрица $C$ размерностью $l \times n$:
@@ -63,7 +65,7 @@ c_{11} & c_{12} & \dots & c_{1n} \\
 c_{21} & c_{22} & \dots & c_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 c_{l1} & c_{l2} & \dots & c_{ln} \\
-\end{bmatrix},
+\end{bmatrix}
 $$
 
 в которой
