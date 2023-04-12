@@ -31,6 +31,9 @@ tags:
 - `7 + 5 == 48 / 4 in (10, 11, 12)` --> `((7 + 5) == (48 / 4)) in (10, 11, 12)` <br/>сначала арифметика, затем сравнение и вхождение
 - `A and B or C or not D and E` --> `((A and B) or C) or ((not D) and E)` <br/>сначала НЕ, затем И, затем ИЛИ
 
+## Связанные заметки
+- [Выполнение операций под надзором ast](operator-precedence-ast.md)
+
 ## Ссылки
 
 - [Документация. Expressions — Operator precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
