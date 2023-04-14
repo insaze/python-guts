@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
@@ -17,12 +16,12 @@ function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        to="/docs/notes">
+                        to="/notes">
                         Заметки
                     </Link>
                     <Link
                         className="button button--secondary button--lg"
-                        to="/docs/tasks">
+                        to="/tasks">
                         Задачи
                     </Link>
                 </div>
@@ -38,9 +37,6 @@ export default function Home() {
             title={siteConfig.title}
             description="Изучение Python в теории и на практике">
             <HomepageHeader/>
-            {/*<main>*/}
-            {/*    <HomepageFeatures/>*/}
-            {/*</main>*/}
         </Layout>
     );
 }
