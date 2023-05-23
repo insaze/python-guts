@@ -132,3 +132,7 @@ if __name__ == '__main__':
 Банковское округление
 45.7
 ```
+
+## Ссылки
+- [Работа с десятичными числами](./decimal.md)
+- [Модуль decimal](https://metanit.com/python/tutorial/6.4.php)
